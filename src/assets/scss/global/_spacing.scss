@@ -1,0 +1,77 @@
+.none-top {
+  margin-top: 0;
+}
+.tiny-top {
+  margin-top:20px;
+}
+.small-top {
+  @include breakpoint(small) {
+    margin-top: 20px;
+  }
+  @include breakpoint(medium) {
+    margin-top: 40px;
+  }
+}
+.medium-top {
+  @include breakpoint(small) {
+    margin-top: 40px;
+  }
+  @include breakpoint(medium) {
+    margin-top: 60px;
+  }
+}
+.large-top {
+  @include breakpoint(small) {
+    margin-top: 60px;
+  }
+  @include breakpoint(medium) {
+    margin-top: 80px;
+  }
+}
+.xlarge-top {
+  @include breakpoint(small) {
+    margin-top: 80px;
+  }
+  @include breakpoint(medium) {
+    margin-top: 100px;
+  }
+}
+
+.none-bottom {
+  margin-bottom: 0;
+}
+.tiny-bottom {
+  margin-bottom: 20px;
+}
+.small-bottom {
+  @include breakpoint(small) {
+    margin-bottom: 20px;
+  }
+  @include breakpoint(medium) {
+    margin-bottom: 40px;
+  }
+}
+.medium-bottom {
+  @include breakpoint(small) {
+    margin-bottom: 40px;
+  }
+  @include breakpoint(medium) {
+    margin-bottom: 60px;
+  }
+}
+.large-bottom {
+  @include breakpoint(small) {
+    margin-bottom: 60px;
+  }
+  @include breakpoint(medium) {
+    margin-bottom: 80px;
+  }
+}
+.xlarge-bottom {
+  @include breakpoint(small) {
+    margin-bottom: 80px;
+  }
+  @include breakpoint(medium) {
+    margin-bottom: 100px;
+  }
+}

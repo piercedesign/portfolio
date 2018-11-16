@@ -1,0 +1,31 @@
+{{!-- This is the base layout for your project, and will be used on every page unless specified. --}}
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+  </head>
+<body>
+  <div class="top-bar">
+    <div class="top-bar-left">
+        <a href="/index.html"><img src="/assets/img/jp-logo.svg"></a>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li><a href="/work.html">Work</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Hire Me</a></li>
+      </ul>
+    </div>
+  </div>
+{{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+{{> body}}
+
+<script src="{{root}}assets/js/app.js"></script>
+</body>
+</html>

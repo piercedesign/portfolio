@@ -1,0 +1,27 @@
+.top-bar {
+  .menu li {
+    text-transform: uppercase;
+    font-weight: 600;
+    @include breakpoint(small) {
+      a {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+      }
+    }
+    @include breakpoint(medium) {
+      a {
+        padding: 0.7rem 1.5rem;
+      }
+    }
+  }
+  .top-bar-left {
+    @include breakpoint(small) {
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+    @include breakpoint(medium) {
+      text-align: left;
+      padding-bottom: 0;
+    }
+  }
+}
