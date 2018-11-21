@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="40px" height="30px" viewBox="0 0 40 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="45px" height="34px" viewBox="0 0 45 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
     <title>jp-logo</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD-Copy" transform="translate(-141.000000, -37.000000)" fill="#181818">
-            <g id="Navigation" transform="translate(50.000000, 32.000000)">
-                <g id="jp-logo" transform="translate(91.000000, 5.000000)">
-                    <rect id="Rectangle-10" x="11.5384615" y="0" width="6.92307692" height="29.2307692"></rect>
-                    <polygon id="Rectangle-10-Copy" points="0 14.6153846 6.92307692 19.1826923 6.92307692 29.2307692 0 29.2307692"></polygon>
-                    <rect id="Rectangle-10" transform="translate(25.769231, 14.615385) scale(-1, -1) translate(-25.769231, -14.615385) " x="22.3076923" y="0" width="6.92307692" height="29.2307692"></rect>
-                    <polygon id="Rectangle-10-Copy" transform="translate(36.538462, 7.307692) scale(-1, -1) translate(-36.538462, -7.307692) " points="33.0769231 0 40 4.56730769 40 14.6153846 33.0769231 14.6153846"></polygon>
+        <g id="Desktop-HD-Copy-4" transform="translate(-142.000000, -31.000000)" fill="#181818">
+            <g id="Navigation" transform="translate(50.000000, 31.000000)">
+                <g id="jp-logo" transform="translate(92.000000, 0.000000)">
+                    <rect id="Rectangle-10" x="12.3705179" y="0" width="7.88844622" height="33.4034614"></rect>
+                    <polygon id="Rectangle-10-Copy" points="0 16.0765322 7.88844622 21.5574854 7.88844622 33.4585849 0 33.4585849"></polygon>
+                    <rect id="Rectangle-10" transform="translate(28.685259, 16.701731) scale(-1, -1) translate(-28.685259, -16.701731) " x="24.7410359" y="0" width="7.88844622" height="33.4034614"></rect>
+                    <polygon id="Rectangle-10-Copy" transform="translate(41.055777, 8.574151) scale(1, -1) translate(-41.055777, -8.574151) " points="37.1115538 0 45 5.60445776 45 17.148301 37.1115538 17.148301"></polygon>
                 </g>
             </g>
         </g>
