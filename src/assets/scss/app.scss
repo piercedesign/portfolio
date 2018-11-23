@@ -52,22 +52,62 @@
 @include motion-ui-animations;
 
 @import 'components/topbar';
+@import 'components/dribbble';
 @import 'global/typography';
 @import 'global/spacing';
 
 .hero {
   background-color: $white;
-  background: url(/assets/img/home-bg.jpg);
+  //background: url(/assets/img/home-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
-  min-height: 400px;
+  @include breakpoint(small) {
+    height: 450px;
+  }
+  @include breakpoint(large) {
+    height: 500px;
+  }
   .hero-title {
-    padding-top: 35vh;
+    @include breakpoint(small) {
+      padding-top: 140px;
+      text-align: center;
+    }
+    @include breakpoint(large) {
+      text-align: left;
+    }
   }
   h1 {
-    font-size: 100px;
+    @include breakpoint(small) {
+      font-size: 40px;
+      text-align: center;
+    }
+    @include breakpoint(large) {
+      font-size: 80px;
+      text-align: left;
+    }
+  }
+  h4 {
+    @include breakpoint(small) {
+      text-align: center;
+    }
+    @include breakpoint(large) {
+      text-align: left;
+    }
+  }
+}
+.home-featured {
+  a {
+    opacity: 0.8;
+    //filter: grayscale(100);
+    transition: .5s ease;
+    &:hover {
+      opacity: 1;
+      filter: grayscale(0);
+    }
+    h3 {
+      font-size: 0.8rem;
+    }
   }
 }
 .page-title {

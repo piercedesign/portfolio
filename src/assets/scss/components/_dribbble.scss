@@ -1,0 +1,32 @@
+.dribbble-shots-list {
+  width: 100%;
+  list-style: none;
+  overflow: hidden;
+  margin: 0 auto;
+  li {
+    @include breakpoint(small) {
+      float: left;
+      margin: 0;
+      width: calc(100% / 2);
+    }
+    @include breakpoint(medium) {
+      width: calc(100% / 3);
+    }
+    @include breakpoint(large) {
+      width: calc(100% / 6);
+    }
+  }
+  a {
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    opacity: 0.8;
+    filter: grayscale(100);
+    transition: .5s ease;
+    &:hover {
+      opacity: 1;
+      filter: grayscale(0);
+    }
+  }
+}
