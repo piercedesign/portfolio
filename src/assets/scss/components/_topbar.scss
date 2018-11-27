@@ -26,4 +26,12 @@
       padding-bottom: 0;
     }
   }
+  .top-bar-right .menu {
+    @include breakpoint(small) {
+      text-align: center;
+    }
+    @include breakpoint(medium) {
+      text-align: left;
+    }
+  }
 }
