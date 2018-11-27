@@ -71,7 +71,7 @@ $global-lineheight: 1.5;
 $foundation-palette: (
   primary: #181818,
   secondary: #767676,
-  success: #3adb76,
+  success: #0084FF,
   warning: #ffae00,
   alert: #cc4b37,
 );
@@ -81,7 +81,7 @@ $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $light-gray;
-$body-font-color: $black;
+$body-font-color: #666;
 $body-font-family: 'Roboto', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
@@ -134,7 +134,7 @@ $header-font-family: $body-font-family;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
-$header-color: inherit;
+$header-color: $black;
 $header-lineheight: 1.4;
 $header-margin-bottom: 0.8rem;
 $header-styles: (
@@ -143,7 +143,7 @@ $header-styles: (
     'h2': ('font-size': 20),
     'h3': ('font-size': 19),
     'h4': ('font-size': 18),
-    'h5': ('font-size': 17),
+    'h5': ('font-size': 20),
     'h6': ('font-size': 14),
   ),
   medium: (

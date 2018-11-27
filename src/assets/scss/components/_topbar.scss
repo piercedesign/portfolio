@@ -1,11 +1,13 @@
 .top-bar {
   .menu li {
+    list-style: none;
     text-transform: uppercase;
     font-weight: 600;
     @include breakpoint(small) {
       a {
         padding: 0.5rem 1rem;
         font-size: 0.8rem;
+        color: $black;
       }
     }
     @include breakpoint(medium) {
