@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="52px" height="38px" viewBox="0 0 52 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="44px" height="33px" viewBox="0 0 44 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 4</title>
+    <title>Group</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD-Copy-3" transform="translate(-141.000000, -29.000000)" fill="#181818">
-            <g id="Group-4" transform="translate(141.000000, 29.000000)">
-                <rect id="Rectangle-10" x="15" y="0" width="9" height="38"></rect>
-                <polygon id="Rectangle-10-Copy" points="0 19 9 24.9375 9 38 0 38"></polygon>
-                <rect id="Rectangle-10" transform="translate(33.500000, 19.000000) scale(-1, -1) translate(-33.500000, -19.000000) " x="29" y="0" width="9" height="38"></rect>
-                <polygon id="Rectangle-10-Copy" transform="translate(47.500000, 9.500000) scale(-1, -1) translate(-47.500000, -9.500000) " points="43 0 52 5.9375 52 19 43 19"></polygon>
-            </g>
+        <g id="Group" fill="#181818" fill-rule="nonzero">
+            <rect id="Rectangle-10" x="12" y="0" width="8" height="33"></rect>
+            <polygon id="Rectangle-10-Copy" points="0 16 8 21.3604834 8 33 0 33"></polygon>
+            <rect id="Rectangle-10" transform="translate(28.000000, 16.500000) rotate(180.000000) translate(-28.000000, -16.500000) " x="24" y="0" width="8" height="33"></rect>
+            <polygon id="Rectangle-10-Copy" transform="translate(40.000000, 8.500000) scale(-1, 1) rotate(-180.000000) translate(-40.000000, -8.500000) " points="36 0 44 5.55598959 44 17 36 17"></polygon>
         </g>
     </g>
 </svg>

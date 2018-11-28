@@ -52,23 +52,109 @@
 @include motion-ui-animations;
 
 @import 'components/topbar';
+@import 'components/dribbble';
 @import 'global/typography';
 @import 'global/spacing';
 
+body {
+  overflow-x: hidden;
+  
+}
+
 .hero {
   background-color: $white;
-  background: url(/assets/img/home-bg.jpg);
+  //background: url(/assets/img/home-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
-  min-height: 400px;
+  @include breakpoint(small) {
+    height: 450px;
+  }
+  @include breakpoint(large) {
+    height: 500px;
+  }
   .hero-title {
-    padding-top: 35vh;
+    @include breakpoint(small) {
+      padding-top: 140px;
+      text-align: center;
+    }
+    @include breakpoint(large) {
+      text-align: left;
+    }
   }
   h1 {
-    font-size: 100px;
+    @include breakpoint(small) {
+      font-size: 40px;
+      text-align: center;
+    }
+    @include breakpoint(large) {
+      font-size: 80px;
+      text-align: left;
+    }
   }
+  h4 {
+    @include breakpoint(small) {
+      text-align: center;
+    }
+    @include breakpoint(large) {
+      text-align: left;
+    }
+  }
+}
+li {
+  list-style: square;
+  line-height: 2rem;
+}
+a {
+  color: $success-color;
+}
+.home-featured {
+  a {
+    opacity: 0.8;
+    //filter: grayscale(100);
+    transition: .5s ease;
+    &:hover {
+      opacity: 1;
+      filter: grayscale(0);
+    }
+    h3 {
+      font-size: 0.8rem;
+    }
+  }
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: $black;
+    .text {
+    color: white;
+    //font-size: 20px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-45%, -50%);
+    -ms-transform: translate(-45%, -50%);
+    transform: translate(-45%, -50%);
+    text-align: center;
+    &.sub {
+      padding-top: 4rem;
+
+    }
+  }
+}
+.preview {
+  position: relative;
+  //width: 50%;
+}
+.preview:hover .overlay {
+  opacity: 1;
 }
 .page-title {
   @include breakpoint(small) {
@@ -116,4 +202,19 @@
   background-image: url(/assets/img/support-cover@2x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+.footer {
+  background: $black;
+  .menu.vertical {
+    li {
+      list-style: none;
+      a {
+        color: $white;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+
+      }
+    }
+  }
 }
