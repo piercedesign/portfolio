@@ -122,6 +122,15 @@ a {
     }
   }
 }
+.shadow {
+  &:hover {
+    box-shadow: 0px 10px 40px 5px rgba(0, 0, 0, 0.05);
+    transition: 0.5s ease;
+    transform: scale(1.008);
+  }
+  box-shadow: none;
+  transition: 0.5s ease;
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -191,8 +200,11 @@ a {
   padding-bottom: 1rem;
 }
 .next-project {
-  background-color: $white;
+  background-color: $black;
   padding: 6rem 0 6rem 0;
+  h2 {
+    color: $white;
+  }
 }
 
 .tease {
