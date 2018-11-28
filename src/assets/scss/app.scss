@@ -56,6 +56,11 @@
 @import 'global/typography';
 @import 'global/spacing';
 
+body {
+  overflow-x: hidden;
+  
+}
+
 .hero {
   background-color: $white;
   //background: url(/assets/img/home-bg.jpg);
@@ -199,12 +204,12 @@ a {
   background-repeat: no-repeat;
 }
 .footer {
-  background: $white;
+  background: $black;
   .menu.vertical {
     li {
       list-style: none;
       a {
-        color: $black;
+        color: $white;
         font-weight: 600;
         text-transform: uppercase;
         font-size: 0.8rem;
