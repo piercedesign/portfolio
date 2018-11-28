@@ -58,7 +58,7 @@
 
 body {
   overflow-x: hidden;
-  
+
 }
 
 .hero {
@@ -204,12 +204,12 @@ a {
   background-repeat: no-repeat;
 }
 .footer {
-  background: $black;
+  background: $white;
   .menu.vertical {
     li {
       list-style: none;
       a {
-        color: $white;
+        color: $black;
         font-weight: 600;
         text-transform: uppercase;
         font-size: 0.8rem;
