@@ -60,6 +60,11 @@ body {
   overflow-x: hidden;
 
 }
+.button {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
 
 .hero {
   background-color: $white;
@@ -214,6 +219,20 @@ a {
   background-image: url(/assets/img/support-cover@2x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+.contact {
+  .menu.vertical {
+    li {
+      list-style: none;
+      a {
+        color: $black;
+        //font-weight: 600;
+        //text-transform: uppercase;
+        font-size: 1rem;
+
+      }
+    }
+  }
 }
 .footer {
   background: $white;
