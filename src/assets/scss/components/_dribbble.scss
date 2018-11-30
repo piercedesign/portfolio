@@ -3,7 +3,7 @@
   list-style: none;
   overflow: hidden;
   margin: 0 auto;
-  background: $white;
+  background: $black;
   li {
     @include breakpoint(small) {
       float: left;
@@ -23,8 +23,8 @@
     width: 100%;
     position: relative;
     overflow: hidden;
-    opacity: 0.8;
-    filter: grayscale(100);
+    //opacity: 0.9;
+    //filter: grayscale(100);
     transition: .5s ease;
     &:hover {
       opacity: 1;
