@@ -21565,6 +21565,9 @@ window.$ = jquery__WEBPACK_IMPORTED_MODULE_0___default.a;
 //import './lib/foundation-explicit-pieces';
 
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).foundation();
+jquery__WEBPACK_IMPORTED_MODULE_0___default()(function ($) {
+  $("img.lazy").Lazy();
+});
 
 /***/ }),
 
