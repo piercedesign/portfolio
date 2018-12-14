@@ -10,3 +10,7 @@ import Foundation from 'foundation-sites';
 
 
 $(document).foundation();
+
+$(function($) {
+    $("img.lazy").Lazy();
+});
