@@ -17,34 +17,40 @@
 
 
 
-function isInViewport(el) {
+jQuery.fn.isInViewport = function() {
+  console.log("in the function");
   var winHeight = jQuery(window).height();
-console.log(winHeight)
   var winScroll = jQuery(window).scrollTop();
-  var elmFromTop = jQuery(el).position().top;
+  console.log("page is scrolled from top "+winScroll);
+  var elmFromTop = jQuery(this).position().top;
+
+
   var fromTop = elmFromTop - winScroll;
-  if (fromTop < winHeight - 100) {
+  console.log("this element "+jQuery(this).attr('data-src')+ " is this many px from top "+elmFromTop+" window scroll is "+fromTop);
+  if (fromTop < (winHeight - 100)) {
     //the number after winHeight is either above the bottom view (-) or below it (+)
     return true;
   }
 }
 var srcArray = [];
-jQuery(document).ready(function(){
+
   jQuery(window).on("scroll load", function() {
     // images not backgrounds.
+
     jQuery("img").each(function() {
       var src = jQuery(this).attr("data-src");
       if (src != undefined) {
 
         if (srcArray.indexOf(src) === -1) {
 
-          if (isInViewport(jQuery(this))) {
+
+          if (jQuery(this).isInViewport()) {
             var srcSet = jQuery(this).attr("data-srcset");
             jQuery(this).attr("src", src);
             jQuery(this).attr("srcset", srcSet);
             jQuery(this).removeAttr("data-src");
             jQuery(this).removeAttr("data-srcset");
-            //console.log("loaded: " + src);
+          //  console.log("loaded: " + src);
             srcArray.push(src);
           }
         }
@@ -61,4 +67,3 @@ jQuery(document).ready(function(){
 
     //console.log("array = " + srcArray);
   });
-});
