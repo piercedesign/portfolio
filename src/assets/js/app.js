@@ -14,7 +14,9 @@
 //Jonathan, This needs to be revisited, I will look at this on monday, apparently jQuery 3 dropped jquery functions so I will need to rewrite it anyways for AEM
 //currently it should just be loading all the images as soon as it sees one, allowing you to continue forward on your site till I can rebuild.
 *********************************************************************/
-
+$(function() {
+       $('.lazy').Lazy();
+   });
 
 
 jQuery.fn.isInViewport = function() {
