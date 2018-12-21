@@ -10,5 +10,10 @@
 
 
 $(function() {
-       $('.lazy').Lazy();
+       $('.lazy').Lazy({
+          //scrollDirection: vertical,
+          effect: 'fadeIn',
+          effectTime: 1000,
+          threshold: 100,
+       });
    });
