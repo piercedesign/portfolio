@@ -1,40 +1,190 @@
 
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="My name is Jonathan Pierce and I am a Senior UI/UX Designer, and front-end developer. I have over 8 years’ experience designing and building a wide variety of products. From startup applications, to large enterprise websites, my career has shaped me into a designer who loves simplicity, efficiency and effective design.">
-    <title>Jonathan Pierce • UI/UX Designer</title>
-    <link rel="stylesheet" href="assets/css/app.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png?v=WG204k6dmR">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png?v=WG204k6dmR">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png?v=WG204k6dmR">
-    <link rel="manifest" href="/site.webmanifest?v=WG204k6dmR">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=WG204k6dmR" color="#3d3d3d">
-    <link rel="shortcut icon" href="/favicon.ico?v=WG204k6dmR">
-    <meta name="apple-mobile-web-app-title" content="Jonathan Pierce Design">
-    <meta name="application-name" content="Jonathan Pierce Design">
-    <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="theme-color" content="#ffffff">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.lazy.min.js"></script>
 
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Description"
+    content="My name is Jonathan Pierce and I am a Senior UI/UX Designer, and front-end developer. I have over 8 years’ experience designing and building a wide variety of products. From startup applications, to large enterprise websites, my career has shaped me into a designer who loves simplicity, efficiency and effective design.">
+  <title>Jonathan Pierce • UI/UX Designer</title>
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png?v=WG204k6dmR">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png?v=WG204k6dmR">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png?v=WG204k6dmR">
+  <link rel="manifest" href="/site.webmanifest?v=WG204k6dmR">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg?v=WG204k6dmR" color="#3d3d3d">
+  <link rel="shortcut icon" href="/favicon.ico?v=WG204k6dmR">
+  <meta name="apple-mobile-web-app-title" content="Jonathan Pierce Design">
+  <meta name="application-name" content="Jonathan Pierce Design">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="theme-color" content="#ffffff">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.lazy.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17132395-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17132395-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-      gtag('config', 'UA-17132395-1');
-    </script>
+    gtag('config', 'UA-17132395-1');
+  </script>
+  <!--this is critical css-->
+  <style>
+    html {
+      line-height: 1.15;
+      -webkit-text-size-adjust: 100%;
+    }
 
-  </head>
+    body {
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin: 0.67em 0;
+    }
+
+    a {
+      background-color: transparent;
+    }
+
+    img {
+      border-style: none;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    button,
+    input {
+      overflow: visible;
+    }
+
+    button,
+    select {
+      text-transform: none;
+    }
+
+    button,
+    [type="button"],
+    [type="reset"],
+    [type="submit"] {
+      -webkit-appearance: button;
+    }
+
+    .foundation-mq {
+      font-family: "small=0em&medium=40em&large=64em&xlarge=75em&xxlarge=90em";
+    }
+
+    html {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      font-size: 100%;
+    }
+
+    *,
+    *::before,
+    *::after {
+      -webkit-box-sizing: inherit;
+      box-sizing: inherit;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #F7F7F7;
+      font-family: "Roboto", Helvetica, Roboto, Arial, sans-serif;
+      font-weight: normal;
+      line-height: 1.5;
+      color: #666;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      max-width: 100%;
+      height: auto;
+      -ms-interpolation-mode: bicubic;
+    }
+
+    button {
+      padding: 0;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+    }
+
+    .grid-container {
+      padding-right: 2rem;
+      padding-left: 2rem;
+      max-width: 87.5rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media print,
+    screen and (min-width: 40em) {
+      .grid-container {
+        padding-right: 3.5rem;
+        padding-left: 3.5rem;
+      }
+    }
+
+    .grid-x {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+    }
+
+    .cell {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      min-height: 0px;
+      min-width: 0px;
+      width: 100%;
+    }
+  </style>
+</head>
+
 <body>
   <button onclick="topFunction()" id="totopbutton" title="Go to top"><img src="/assets/img/top-arrow.svg"></button>
   <nav role="navigation">
@@ -52,28 +202,28 @@
     </div>
   </nav>
   <main role="main">
-  <div class="page-title">
-    <div class="grid-x grid-padding-x">
-      <div class="large-10 cell">
-        <h1>Contact</h1>
-      </div>
-    </div>
-  </div>
-  <div class="grid-container section">
-    <div class="grid-x grid-padding-x grid-margin-x contact">
-      <div class="small-12 medium-6 cell">
-        <h4>I'm currently open to contract or full-time opportunities. Feel free to give me a shout if you're looking to collaborate!</h4>
-      </div>
-      <div class="small-12 medium-6 cell">
-        <ul class="vertical menu">
-          <li><a href="mailto:piercedesign22@gmail.com">piercedesign22@gmail.com</a></li>
-          <li><a href="tel:434-907-8324">(417) 849-3965</a></li>
-        </ul>
+    <div class="page-title">
+      <div class="grid-x grid-padding-x">
+        <div class="large-10 cell">
+          <h1>Contact</h1>
         </div>
       </div>
     </div>
-  </div>
-  
+    <div class="grid-container section">
+      <div class="grid-x grid-padding-x grid-margin-x contact">
+        <div class="small-12 medium-6 cell">
+          <h4>I'm currently open to contract or full-time opportunities. Feel free to give me a shout if you're looking to collaborate!</h4>
+        </div>
+        <div class="small-12 medium-6 cell">
+          <ul class="vertical menu">
+            <li><a href="mailto:piercedesign22@gmail.com">piercedesign22@gmail.com</a></li>
+            <li><a href="tel:434-907-8324">(417) 849-3965</a></li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
   </main>
   <footer role="contentinfo">
     <div class="footer">
@@ -117,29 +267,32 @@
     AOS.init();
   </script>
   <script type="text/javascript">
-  var _userway_config = {
-  account: '3yHu1N61aY'
-  };
+    var _userway_config = {
+      account: '3yHu1N61aY'
+    };
   </script>
   <script type="text/javascript" src="https://cdn.userway.org/widget.js"></script>
 
   <script>
-  // When the user scrolls down 20px from the top of the document, show the button
-  window.onscroll = function() {scrollFunction()};
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+      scrollFunction()
+    };
 
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.getElementById("totopbutton").style.display = "block";
-    } else {
-      document.getElementById("totopbutton").style.display = "none";
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("totopbutton").style.display = "block";
+      } else {
+        document.getElementById("totopbutton").style.display = "none";
+      }
     }
-  }
 
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
   </script>
 </body>
+
 </html>

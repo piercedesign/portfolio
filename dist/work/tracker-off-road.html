@@ -1,40 +1,190 @@
 
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="My name is Jonathan Pierce and I am a Senior UI/UX Designer, and front-end developer. I have over 8 years’ experience designing and building a wide variety of products. From startup applications, to large enterprise websites, my career has shaped me into a designer who loves simplicity, efficiency and effective design.">
-    <title>Jonathan Pierce • UI/UX Designer</title>
-    <link rel="stylesheet" href="../assets/css/app.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png?v=WG204k6dmR">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png?v=WG204k6dmR">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png?v=WG204k6dmR">
-    <link rel="manifest" href="/site.webmanifest?v=WG204k6dmR">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=WG204k6dmR" color="#3d3d3d">
-    <link rel="shortcut icon" href="/favicon.ico?v=WG204k6dmR">
-    <meta name="apple-mobile-web-app-title" content="Jonathan Pierce Design">
-    <meta name="application-name" content="Jonathan Pierce Design">
-    <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="theme-color" content="#ffffff">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="../assets/js/jquery.lazy.min.js"></script>
 
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Description"
+    content="My name is Jonathan Pierce and I am a Senior UI/UX Designer, and front-end developer. I have over 8 years’ experience designing and building a wide variety of products. From startup applications, to large enterprise websites, my career has shaped me into a designer who loves simplicity, efficiency and effective design.">
+  <title>Jonathan Pierce • UI/UX Designer</title>
+  <link rel="stylesheet" href="../assets/css/app.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png?v=WG204k6dmR">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png?v=WG204k6dmR">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png?v=WG204k6dmR">
+  <link rel="manifest" href="/site.webmanifest?v=WG204k6dmR">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg?v=WG204k6dmR" color="#3d3d3d">
+  <link rel="shortcut icon" href="/favicon.ico?v=WG204k6dmR">
+  <meta name="apple-mobile-web-app-title" content="Jonathan Pierce Design">
+  <meta name="application-name" content="Jonathan Pierce Design">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="theme-color" content="#ffffff">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../assets/js/jquery.lazy.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17132395-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17132395-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-      gtag('config', 'UA-17132395-1');
-    </script>
+    gtag('config', 'UA-17132395-1');
+  </script>
+  <!--this is critical css-->
+  <style>
+    html {
+      line-height: 1.15;
+      -webkit-text-size-adjust: 100%;
+    }
 
-  </head>
+    body {
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin: 0.67em 0;
+    }
+
+    a {
+      background-color: transparent;
+    }
+
+    img {
+      border-style: none;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    button,
+    input {
+      overflow: visible;
+    }
+
+    button,
+    select {
+      text-transform: none;
+    }
+
+    button,
+    [type="button"],
+    [type="reset"],
+    [type="submit"] {
+      -webkit-appearance: button;
+    }
+
+    .foundation-mq {
+      font-family: "small=0em&medium=40em&large=64em&xlarge=75em&xxlarge=90em";
+    }
+
+    html {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      font-size: 100%;
+    }
+
+    *,
+    *::before,
+    *::after {
+      -webkit-box-sizing: inherit;
+      box-sizing: inherit;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #F7F7F7;
+      font-family: "Roboto", Helvetica, Roboto, Arial, sans-serif;
+      font-weight: normal;
+      line-height: 1.5;
+      color: #666;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      max-width: 100%;
+      height: auto;
+      -ms-interpolation-mode: bicubic;
+    }
+
+    button {
+      padding: 0;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+    }
+
+    .grid-container {
+      padding-right: 2rem;
+      padding-left: 2rem;
+      max-width: 87.5rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media print,
+    screen and (min-width: 40em) {
+      .grid-container {
+        padding-right: 3.5rem;
+        padding-left: 3.5rem;
+      }
+    }
+
+    .grid-x {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+    }
+
+    .cell {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      min-height: 0px;
+      min-width: 0px;
+      width: 100%;
+    }
+  </style>
+</head>
+
 <body>
   <button onclick="topFunction()" id="totopbutton" title="Go to top"><img src="/assets/img/top-arrow.svg"></button>
   <nav role="navigation">
@@ -52,152 +202,152 @@
     </div>
   </nav>
   <main role="main">
-  <div class="page-title">
-    <div class="grid-x grid-padding-x">
-      <div class="large-10 cell">
-        <h1>Tracker Off Road</h1>
+    <div class="page-title">
+      <div class="grid-x grid-padding-x">
+        <div class="large-10 cell">
+          <h1>Tracker Off Road</h1>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="grid-container section">
-    <div class="grid-x grid-padding-x grid-margin-x">
-      <div class="small-12 medium-6 cell">
-        <h6>Client</h6>
-        <p>White River Marine Group</p>
-        <h6 class="column-content">My Role</h6>
-        <p>UI Designer</br>UX Designer</br>Front-End Developer</p>
-      </div>
-      <div class="small-12 medium-6 cell">
-        <h6>Summary</h6>
-        <h4>I lead UI/UX and front-end development for the launch of an all-new product with White River Marine Group.</h4>
-        <div class="small-bottom"></div>
-        <a class="hollow button" href="https://www.trackeroffroad.com/">Visit Website</a>
-      </div>
-    </div>
-  </div>
-  <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-cover-2.jpg" data-retina="/assets/img/tor-cover-2@2x.jpg" alt="Tracker Off Road Product Page Mobile"></div>
-  <div class="grid-container section">
-    <div class="section">
+    <div class="grid-container section">
       <div class="grid-x grid-padding-x grid-margin-x">
         <div class="small-12 medium-6 cell">
-          <h3>Problem Statement</h3>
+          <h6>Client</h6>
+          <p>White River Marine Group</p>
+          <h6 class="column-content">My Role</h6>
+          <p>UI Designer</br>UX Designer</br>Front-End Developer</p>
         </div>
-        <div class="small-12 medium-6 cell highlight">
-          <p>In early 2019, Johnny Morris (founder of Bass Pro Shops) announced to a select few that Bass Pro Shops was partnering with Textron to launch a new line of off-road products called Tracker Off Road. Initially, the project was kept secret from the rest of the company, requiring those who knew to work from home. I was tasked with building the initial landing page introducing the product.</p>
-          <p>After the initial landing page launch, product information started to trickle in and the need for a full brand website was obvious. Because of the fast paced nature of this brand, and the unknown requirements to come, it was decided that I would build the site outside our typical Adobe Experience Manager environment. To this day, I completely manage the site from design to development, continually adding features and improving the site.</p>
-          <p>In less than a year, the site has grown to White River Marine Group's most visited site, regularly gaining traffic from national campaigns and network TV specials.</p>
+        <div class="small-12 medium-6 cell">
+          <h6>Summary</h6>
+          <h4>I lead UI/UX and front-end development for the launch of an all-new product with White River Marine Group.</h4>
+          <div class="small-bottom"></div>
+          <a class="hollow button" href="https://www.trackeroffroad.com/">Visit Website</a>
         </div>
       </div>
     </div>
-      <div class="grid-x grid-padding-x grid-margin-x">
-        <div class="small-12 medium-6 cell">
-          <h3>Project Goals</h3>
-          <div class="medium-bottom"></div>
-        </div>
-        <div class="small-12 medium-6 cell">
-          <div class="grid-x  grid-margin-x">
-            <div class="small-12 medium-6 cell">
-              <img class="number-icon" src="/assets/img/one.svg" alt="One Icon">
-              <p>Design and develop a mobile first experience that focuses on introducing a new brand to the off road market.</p>
-            </div>
-            <div class="small-12 medium-6 cell">
-              <img class="number-icon" src="/assets/img/two.svg" alt="Two Icon">
-              <p>Convey the defined Tracker Off Road brand style, while maintaining good usability and user experience.</p>
-            </div>
-            <div class="small-12 medium-6 cell column-content">
-              <img class="number-icon" src="/assets/img/three.svg" alt="Three Icon">
-              <p>Develop in a way that is easily flexible, yet sustainable for a fast-paced, ever-changing brand.</p>
-            </div>
-            <div class="small-12 medium-6 cell column-content">
-              <img class="number-icon" src="/assets/img/four.svg" alt="Four Icon">
-              <p>Currency support for US and Canada.</p>
-            </div>
-          </div>
-        </div>
-    </div>
-  </div>
-  <div class="section" style="background-color: #ffffff;">
-    <h6 class="text-center">Original Teaser (Launched Feb 2019)</h6>
-  </div>
-  <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-landing.jpg" data-retina="/assets/img/tor-landing@2x.jpg" alt="Tracker Off Road Landing Page"></div>
-  <h6 class="text-center large-top">Early Concepts (before brand style guide)</h6>
-  <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-early.jpg" data-retina="/assets/img/tor-early@2x.jpg" alt="Tracker Off Road Early Design Concepts"></div>
-  <h6 class="text-center large-top">Style guide Released (Design by Pocket Hercules)</h6>
-  <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-styleguide.jpg" data-retina="/assets/img/tor-styleguide@2x.jpg" alt="Tracker Off Road Style Guide"></div>
-  <div class="grid-container section">
-    <div class="section">
-      <div class="grid-x grid-padding-x grid-margin-x">
-        <div class="small-12 medium-6 cell">
-          <h3>Full Brand Site</h3>
-        </div>
-        <div class="small-12 medium-6 cell highlight">
-          <p>Now that the style guide was public, it was time to apply the style to match other campaign materials. I built the site using Zurb Foundation; an HTML5 and SASS framework for basic websites. Because I was designing and building the site myself, I focused on simple, easy-to-use navigation and user experience. I also sought out to build it in a way that was flexible and quick to maintain. With the brand being so new, I had to be ready for anything.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-home-all.jpg" data-retina="/assets/img/tor-home-all@2x.jpg" alt="Tracker Off Road Homepage"></div>
-  
-  <!-- <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-home.jpg" data-retina="/assets/img/tor-home@2x.jpg" alt="Customer Support Mobile Wireframe"></div> -->
-  <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-home-mobile.jpg" data-retina="/assets/img/tor-home-mobile@2x.jpg" alt="Tracker Off Road Homepage Mobile"></div>
-  
-  <div class="grid-container section">
-    <div class="section">
-      <div class="grid-x grid-padding-x grid-margin-x">
-        <div class="small-12 medium-6 cell">
-          <h3>Product Page</h3>
-        </div>
-        <div class="small-12 medium-6 cell highlight">
-          <p>When designing the product page, I again focused on simplicity. By keeping the main product information above the fold, I wanted the user to quickly move from model to model, understanding what we we're offering and for what price. Because we we're a new brand to the market, I felt it was very important to focus on quickly telling our story, so they knew immediately how we compared to competitors.</p>
-          <p>The product page also improved over time. As new materials, photography and information became available, I was easily able to add without disrupting the overall template.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-product-top.jpg" data-retina="/assets/img/tor-product-top@2x.jpg" alt="Tracker Off Road Product Page"></div>
-  <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-product-mobile.jpg" data-retina="/assets/img/tor-product-mobile@2x.jpg" alt="Tracker Off Road Product Page Mobile"></div>
-  <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-product.jpg" data-retina="/assets/img/tor-product@2x.jpg" alt="Tracker Off Road Product Page Layout"></div>
-  
-  <div class="grid-container section">
-    <h6 class="text-center small-top large-bottom">Founding Members Club</h6>
-    <div class="grid-container">
+    <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-cover-2.jpg" data-retina="/assets/img/tor-cover-2@2x.jpg" alt="Tracker Off Road Product Page Mobile"></div>
+    <div class="grid-container section">
+      <div class="section">
         <div class="grid-x grid-padding-x grid-margin-x">
-          <div class="small-12 cell">
-            <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-fmc.jpg" data-retina="/assets/img/tor-fmc@2x.jpg" alt="Tracker Off Road Founding Members Club"></div>
+          <div class="small-12 medium-6 cell">
+            <h3>Problem Statement</h3>
+          </div>
+          <div class="small-12 medium-6 cell highlight">
+            <p>In early 2019, Johnny Morris (founder of Bass Pro Shops) announced to a select few that Bass Pro Shops was partnering with Textron to launch a new line of off-road products called Tracker Off Road. Initially, the project was kept secret from the rest of the company, requiring those who knew to work from home. I was tasked with building the initial landing page introducing the product.</p>
+            <p>After the initial landing page launch, product information started to trickle in and the need for a full brand website was obvious. Because of the fast paced nature of this brand, and the unknown requirements to come, it was decided that I would build the site outside our typical Adobe Experience Manager environment. To this day, I completely manage the site from design to development, continually adding features and improving the site.</p>
+            <p>In less than a year, the site has grown to White River Marine Group's most visited site, regularly gaining traffic from national campaigns and network TV specials.</p>
+          </div>
+        </div>
+      </div>
+        <div class="grid-x grid-padding-x grid-margin-x">
+          <div class="small-12 medium-6 cell">
+            <h3>Project Goals</h3>
+            <div class="medium-bottom"></div>
+          </div>
+          <div class="small-12 medium-6 cell">
+            <div class="grid-x  grid-margin-x">
+              <div class="small-12 medium-6 cell">
+                <img class="number-icon" src="/assets/img/one.svg" alt="One Icon">
+                <p>Design and develop a mobile first experience that focuses on introducing a new brand to the off road market.</p>
+              </div>
+              <div class="small-12 medium-6 cell">
+                <img class="number-icon" src="/assets/img/two.svg" alt="Two Icon">
+                <p>Convey the defined Tracker Off Road brand style, while maintaining good usability and user experience.</p>
+              </div>
+              <div class="small-12 medium-6 cell column-content">
+                <img class="number-icon" src="/assets/img/three.svg" alt="Three Icon">
+                <p>Develop in a way that is easily flexible, yet sustainable for a fast-paced, ever-changing brand.</p>
+              </div>
+              <div class="small-12 medium-6 cell column-content">
+                <img class="number-icon" src="/assets/img/four.svg" alt="Four Icon">
+                <p>Currency support for US and Canada.</p>
+              </div>
+            </div>
           </div>
       </div>
     </div>
-  </div>
-  <div class="grid-container section">
-    <h6 class="text-center">Supporting Pages</h6>
-  </div>
-  <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-pages.jpg" data-retina="/assets/img/tor-pages@2x.jpg" alt="Tracker Off Road Supporting Pages"></div>
-  <div class="grid-container section">
-    <div class="section">
+    <div class="section" style="background-color: #ffffff;">
+      <h6 class="text-center">Original Teaser (Launched Feb 2019)</h6>
+    </div>
+    <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-landing.jpg" data-retina="/assets/img/tor-landing@2x.jpg" alt="Tracker Off Road Landing Page"></div>
+    <h6 class="text-center large-top">Early Concepts (before brand style guide)</h6>
+    <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-early.jpg" data-retina="/assets/img/tor-early@2x.jpg" alt="Tracker Off Road Early Design Concepts"></div>
+    <h6 class="text-center large-top">Style guide Released (Design by Pocket Hercules)</h6>
+    <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-styleguide.jpg" data-retina="/assets/img/tor-styleguide@2x.jpg" alt="Tracker Off Road Style Guide"></div>
+    <div class="grid-container section">
+      <div class="section">
+        <div class="grid-x grid-padding-x grid-margin-x">
+          <div class="small-12 medium-6 cell">
+            <h3>Full Brand Site</h3>
+          </div>
+          <div class="small-12 medium-6 cell highlight">
+            <p>Now that the style guide was public, it was time to apply the style to match other campaign materials. I built the site using Zurb Foundation; an HTML5 and SASS framework for basic websites. Because I was designing and building the site myself, I focused on simple, easy-to-use navigation and user experience. I also sought out to build it in a way that was flexible and quick to maintain. With the brand being so new, I had to be ready for anything.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-home-all.jpg" data-retina="/assets/img/tor-home-all@2x.jpg" alt="Tracker Off Road Homepage"></div>
+    
+    <!-- <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-home.jpg" data-retina="/assets/img/tor-home@2x.jpg" alt="Customer Support Mobile Wireframe"></div> -->
+    <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-home-mobile.jpg" data-retina="/assets/img/tor-home-mobile@2x.jpg" alt="Tracker Off Road Homepage Mobile"></div>
+    
+    <div class="grid-container section">
+      <div class="section">
+        <div class="grid-x grid-padding-x grid-margin-x">
+          <div class="small-12 medium-6 cell">
+            <h3>Product Page</h3>
+          </div>
+          <div class="small-12 medium-6 cell highlight">
+            <p>When designing the product page, I again focused on simplicity. By keeping the main product information above the fold, I wanted the user to quickly move from model to model, understanding what we we're offering and for what price. Because we we're a new brand to the market, I felt it was very important to focus on quickly telling our story, so they knew immediately how we compared to competitors.</p>
+            <p>The product page also improved over time. As new materials, photography and information became available, I was easily able to add without disrupting the overall template.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-product-top.jpg" data-retina="/assets/img/tor-product-top@2x.jpg" alt="Tracker Off Road Product Page"></div>
+    <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-product-mobile.jpg" data-retina="/assets/img/tor-product-mobile@2x.jpg" alt="Tracker Off Road Product Page Mobile"></div>
+    <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-product.jpg" data-retina="/assets/img/tor-product@2x.jpg" alt="Tracker Off Road Product Page Layout"></div>
+    
+    <div class="grid-container section">
+      <h6 class="text-center small-top large-bottom">Founding Members Club</h6>
+      <div class="grid-container">
+          <div class="grid-x grid-padding-x grid-margin-x">
+            <div class="small-12 cell">
+              <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-fmc.jpg" data-retina="/assets/img/tor-fmc@2x.jpg" alt="Tracker Off Road Founding Members Club"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-container section">
+      <h6 class="text-center">Supporting Pages</h6>
+    </div>
+    <div class="full-width-image"><img class="lazy" data-src="/assets/img/tor-pages.jpg" data-retina="/assets/img/tor-pages@2x.jpg" alt="Tracker Off Road Supporting Pages"></div>
+    <div class="grid-container section">
+      <div class="section">
+        <div class="grid-x grid-padding-x grid-margin-x">
+          <div class="small-12 medium-6 cell">
+            <h3>Learnings</h3>
+          </div>
+          <div class="small-12 medium-6 cell highlight">
+            <p>The approach to this project proved itself to be very efficient. With updates and changes needed daily, coding the site statically was a incredibly quick way to respond to the fast-paced needs of the brand. The downside however, is the site has grown substantially, not only in pages, but in complexity. It's apparent that this approach was never sustainable, but offered the agility similar to a startup.</p>
+            <p>We're now looking at migrating the site to our AEM instance and using our product database for product information. This was a great learning experience for me personally, as it taught me to design and develop more cohesively. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="next-project">
       <div class="grid-x grid-padding-x grid-margin-x">
         <div class="small-12 medium-6 cell">
-          <h3>Learnings</h3>
         </div>
-        <div class="small-12 medium-6 cell highlight">
-          <p>The approach to this project proved itself to be very efficient. With updates and changes needed daily, coding the site statically was a incredibly quick way to respond to the fast-paced needs of the brand. The downside however, is the site has grown substantially, not only in pages, but in complexity. It's apparent that this approach was never sustainable, but offered the agility similar to a startup.</p>
-          <p>We're now looking at migrating the site to our AEM instance and using our product database for product information. This was a great learning experience for me personally, as it taught me to design and develop more cohesively. </p>
+        <div class="medium-6 cell">
+          <h6>Next Project</h6>
+          <a href="customer-support.html">
+            <h2>Customer Support <img src="/assets/img/right-arrow.svg" aria-label="Navigate to Customer Support" alt="Navigate to next project"></h2>
+          </a>
         </div>
       </div>
     </div>
-  </div>
-  <div class="next-project">
-    <div class="grid-x grid-padding-x grid-margin-x">
-      <div class="small-12 medium-6 cell">
-      </div>
-      <div class="medium-6 cell">
-        <h6>Next Project</h6>
-        <a href="customer-support.html">
-          <h2>Customer Support <img src="/assets/img/right-arrow.svg" aria-label="Navigate to Customer Support" alt="Navigate to next project"></h2>
-        </a>
-      </div>
-    </div>
-  </div>
-  
+    
   </main>
   <footer role="contentinfo">
     <div class="footer">
@@ -241,29 +391,32 @@
     AOS.init();
   </script>
   <script type="text/javascript">
-  var _userway_config = {
-  account: '3yHu1N61aY'
-  };
+    var _userway_config = {
+      account: '3yHu1N61aY'
+    };
   </script>
   <script type="text/javascript" src="https://cdn.userway.org/widget.js"></script>
 
   <script>
-  // When the user scrolls down 20px from the top of the document, show the button
-  window.onscroll = function() {scrollFunction()};
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+      scrollFunction()
+    };
 
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.getElementById("totopbutton").style.display = "block";
-    } else {
-      document.getElementById("totopbutton").style.display = "none";
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("totopbutton").style.display = "block";
+      } else {
+        document.getElementById("totopbutton").style.display = "none";
+      }
     }
-  }
 
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
   </script>
 </body>
+
 </html>
