@@ -34,84 +34,89 @@
   </head>
 <body>
   <button onclick="topFunction()" id="totopbutton" title="Go to top"><img src="/assets/img/top-arrow.svg"></button>
-
-  <div class="top-bar">
-    <div class="top-bar-left">
-      <a href="/index.html"><img src="/assets/img/jp-logo.svg"></a>
+  <nav role="navigation">
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <a href="/index.html"><img src="/assets/img/jp-logo.svg"></a>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu align-center">
+          <li><a href="/work.html">Work</a></li>
+          <li><a href="/profile.html">Profile</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="top-bar-right">
-      <ul class="menu align-center">
-        <li><a href="/work.html">Work</a></li>
-        <li><a href="/profile.html">Profile</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-{{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-{{> body}}
-  <div class="footer">
-    <div class="grid-container section">
-      <div class="grid-x grid-padding-x grid-margin-x">
-        <div class="small-12 medium-4 cell">
-          <a href="/index.html"><img src="/assets/img/jp-logo.svg"></a>
-          <div class="xlarge-bottom"></div>
-        </div>
-        <div class="small-12 medium-8 cell show-for-medium">
-          <div class="grid-x  grid-margin-x">
-            <div class="small-12 medium-6 cell">
-              <ul class="vertical menu">
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/work.html">Work</a></li>
-                <li><a href="/profile.html">Profile</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-              </ul>
-            </div>
-            <div class="small-12 medium-6 cell">
-              <ul class="vertical menu">
-                <li><a href="https://dribbble.com/piercedesign22" target="_blank">Dribbble</a></li>
-                <li><a href="http://www.linkedin.com/in/piercedesign" target="_blank">LinkedIn</a></li>
-                <!-- <li><a href="https://twitter.com/piercedesign22" target="_blank">Twitter</a></li> -->
-                <li><a href="https://angel.co/piercedesign22" target="_blank">AngelList</a></li>
-              </ul>
+  </nav>
+  <main role="main">
+  {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+  {{> body}}
+  </main>
+  <footer role="contentinfo">
+    <div class="footer">
+      <div class="grid-container section">
+        <div class="grid-x grid-padding-x grid-margin-x">
+          <div class="small-12 medium-4 cell">
+            <a href="/index.html"><img src="/assets/img/jp-logo.svg"></a>
+            <div class="xlarge-bottom"></div>
+          </div>
+          <div class="small-12 medium-8 cell show-for-medium">
+            <div class="grid-x  grid-margin-x">
+              <div class="small-12 medium-6 cell">
+                <ul class="vertical menu">
+                  <li><a href="/index.html">Home</a></li>
+                  <li><a href="/work.html">Work</a></li>
+                  <li><a href="/profile.html">Profile</a></li>
+                  <li><a href="/contact.html">Contact</a></li>
+                </ul>
+              </div>
+              <div class="small-12 medium-6 cell">
+                <ul class="vertical menu">
+                  <li><a href="https://dribbble.com/piercedesign22" target="_blank">Dribbble</a></li>
+                  <li><a href="http://www.linkedin.com/in/piercedesign" target="_blank">LinkedIn</a></li>
+                  <!-- <li><a href="https://twitter.com/piercedesign22" target="_blank">Twitter</a></li> -->
+                  <li><a href="https://angel.co/piercedesign22" target="_blank">AngelList</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
-<script src="{{root}}assets/js/app.js"></script>
-<script src="{{root}}assets/js/loadFoundation.js"></script>
-<script src="{{root}}assets/js/jribbble.min.js"></script>
-<script src="{{root}}assets/js/jribbble.js"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-<script type="text/javascript">
-var _userway_config = {
-account: '3yHu1N61aY'
-};
-</script>
-<script type="text/javascript" src="https://cdn.userway.org/widget.js"></script>
+  <script src="{{root}}assets/js/app.js"></script>
+  <script src="{{root}}assets/js/loadFoundation.js"></script>
+  <script src="{{root}}assets/js/jribbble.min.js"></script>
+  <script src="{{root}}assets/js/jribbble.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script type="text/javascript">
+  var _userway_config = {
+  account: '3yHu1N61aY'
+  };
+  </script>
+  <script type="text/javascript" src="https://cdn.userway.org/widget.js"></script>
 
-<script>
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+  <script>
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("totopbutton").style.display = "block";
-  } else {
-    document.getElementById("totopbutton").style.display = "none";
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("totopbutton").style.display = "block";
+    } else {
+      document.getElementById("totopbutton").style.display = "none";
+    }
   }
-}
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
 </body>
 </html>
