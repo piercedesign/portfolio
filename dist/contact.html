@@ -9,7 +9,6 @@
   <meta name="Description"
     content="My name is Jonathan Pierce and I am a Senior UI/UX Designer, and front-end developer. I have over 8 years’ experience designing and building a wide variety of products. From startup applications, to large enterprise websites, my career has shaped me into a designer who loves simplicity, efficiency and effective design.">
   <title>Jonathan Pierce • UI/UX Designer</title>
-  <link rel="stylesheet" href="assets/css/app.css">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png?v=WG204k6dmR">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png?v=WG204k6dmR">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png?v=WG204k6dmR">
@@ -38,151 +37,30 @@
   </script>
   <!--this is critical css-->
   <style>
-    html {
-      line-height: 1.15;
-      -webkit-text-size-adjust: 100%;
-    }
-
-    body {
-      margin: 0;
-    }
-
-    h1 {
-      font-size: 2em;
-      margin: 0.67em 0;
-    }
-
-    a {
-      background-color: transparent;
-    }
-
-    img {
-      border-style: none;
-    }
-
-    button,
-    input,
-    optgroup,
-    select,
-    textarea {
-      font-family: inherit;
-      font-size: 100%;
-      line-height: 1.15;
-      margin: 0;
-    }
-
-    button,
-    input {
-      overflow: visible;
-    }
-
-    button,
-    select {
-      text-transform: none;
-    }
-
-    button,
-    [type="button"],
-    [type="reset"],
-    [type="submit"] {
-      -webkit-appearance: button;
-    }
-
-    .foundation-mq {
-      font-family: "small=0em&medium=40em&large=64em&xlarge=75em&xxlarge=90em";
-    }
-
-    html {
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      font-size: 100%;
-    }
-
-    *,
-    *::before,
-    *::after {
-      -webkit-box-sizing: inherit;
-      box-sizing: inherit;
-    }
-
-    body {
-      margin: 0;
-      padding: 0;
-      background: #F7F7F7;
-      font-family: "Roboto", Helvetica, Roboto, Arial, sans-serif;
-      font-weight: normal;
-      line-height: 1.5;
-      color: #666;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-
-    img {
-      display: inline-block;
-      vertical-align: middle;
-      max-width: 100%;
-      height: auto;
-      -ms-interpolation-mode: bicubic;
-    }
-
-    button {
-      padding: 0;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
-      border: 0;
-      border-radius: 0;
-      background: transparent;
-      line-height: 1;
-      cursor: pointer;
-    }
-
-    button,
-    input,
-    optgroup,
-    select,
-    textarea {
-      font-family: inherit;
-    }
-
-    .grid-container {
-      padding-right: 2rem;
-      padding-left: 2rem;
-      max-width: 87.5rem;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    @media print,
-    screen and (min-width: 40em) {
-      .grid-container {
-        padding-right: 3.5rem;
-        padding-left: 3.5rem;
-      }
-    }
-
-    .grid-x {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
-    }
-
-    .cell {
-      -webkit-box-flex: 0;
-      -webkit-flex: 0 0 auto;
-      -ms-flex: 0 0 auto;
-      flex: 0 0 auto;
-      min-height: 0px;
-      min-width: 0px;
-      width: 100%;
-    }
+    html {line-height: 1.15;-webkit-text-size-adjust: 100%;}
+    body {margin: 0;}
+    h1 {font-size: 2em;margin: 0.67em 0;}
+    a {background-color: transparent;}
+    img {border-style: none;}
+    button,input,optgroup,select,textarea {font-family: inherit;font-size: 100%;line-height: 1.15;margin: 0;}
+    button,input {overflow: visible;}
+    button,select {text-transform: none;}
+    button,[type="button"],[type="reset"],[type="submit"] {-webkit-appearance: button;}
+    .foundation-mq {font-family: "small=0em&medium=40em&large=64em&xlarge=75em&xxlarge=90em";}
+    html {-webkit-box-sizing: border-box;box-sizing: border-box;font-size: 100%;}
+    *,*::before,*::after {-webkit-box-sizing: inherit;box-sizing: inherit;}
+    body {margin: 0;padding: 0;background: #F7F7F7;font-family: "Roboto", Helvetica, Roboto, Arial, sans-serif;font-weight: normal;line-height: 1.5;color: #666;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+    img {display: inline-block;vertical-align: middle;max-width: 100%;height: auto;-ms-interpolation-mode: bicubic;}
+    button {padding: 0;-webkit-appearance: none;-moz-appearance: none;appearance: none;border: 0;border-radius: 0;background: transparent;line-height: 1;cursor: pointer;}
+    button,input,optgroup,select,
+    textarea {font-family: inherit;}
+    .grid-container {padding-right: 2rem;padding-left: 2rem;max-width: 87.5rem;margin-left: auto;margin-right: auto;}
+    @media print,screen and (min-width: 40em) {.grid-container {padding-right: 3.5rem;padding-left: 3.5rem;}}
+    .grid-x {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-flow: row wrap;-ms-flex-flow: row wrap;flex-flow: row wrap;}
+    .cell {-webkit-box-flex: 0;-webkit-flex: 0 0 auto;-ms-flex: 0 0 auto;flex: 0 0 auto;min-height: 0px;min-width: 0px;width: 100%;}
   </style>
+  <link rel="stylesheet" href="assets/css/app.css">
+
 </head>
 
 <body>
@@ -230,7 +108,7 @@
       <div class="grid-container section">
         <div class="grid-x grid-padding-x grid-margin-x">
           <div class="small-12 medium-4 cell">
-            <a href="/index.html"><img src="/assets/img/jp-logo.svg"></a>
+            <a href="/index.html"><img src="/assets/img/jp-logo.svg" title="Go to Home" aria-label="Navigate to Homepage" alt="Jonathan Pierce Logo"></a>
             <div class="xlarge-bottom"></div>
           </div>
           <div class="small-12 medium-8 cell show-for-medium">
