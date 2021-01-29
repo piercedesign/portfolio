@@ -8051,7 +8051,7 @@ strip-outer@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.2"
 
-style-sherpa@^1.0.0:
+style-sherpa@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/style-sherpa/-/style-sherpa-1.0.2.tgz#1df35cc23818bc0b6014e7c70df2084a054e0478"
   integrity sha1-HfNcwjgYvAtgFOfHDfIISgVOBHg=
