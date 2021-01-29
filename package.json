@@ -35,7 +35,7 @@
     "gulp-imagemin": "^4.1.0",
     "gulp-load-plugins": "^1.6.0",
     "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "js-yaml": "^3.13.1",
