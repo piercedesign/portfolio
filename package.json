@@ -15,7 +15,7 @@
     "jquery-lazy": "^1.7.10",
     "jribbble": "^3.0.0",
     "motion-ui": "^2.0.3",
-    "node-sass": "^4.8.0",
+    "node-sass": "^7.0.0",
     "what-input": "^5.2.3"
   },
   "devDependencies": {
